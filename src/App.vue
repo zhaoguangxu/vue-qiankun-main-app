@@ -14,11 +14,14 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/vue-sub-app">Vue子应用</RouterLink>
       </nav>
     </div>
   </header>
 
   <RouterView />
+  <!-- 微应用容器 -->
+  <div id="subapp-container"></div>
 </template>
 
 <style scoped>

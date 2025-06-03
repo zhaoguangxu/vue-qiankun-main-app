@@ -1,0 +1,1 @@
+import{d as e,b as o,e as n,c as s,u as t,o as a,_ as p}from"./index-Db8DAcGj.js";const c={class:"sub-app-container"},u=e({__name:"SubAppView",setup(_){return t(),o(()=>{console.log("SubApp mounted")}),n(()=>{console.log("SubApp unmounted")}),(d,r)=>(a(),s("div",c))}}),m=p(u,[["__scopeId","data-v-61a1ae4e"]]);export{m as default};

@@ -7,6 +7,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/vue-qiankun-main-app/',
   plugins: [
     vue(),
     vueJsx(),

@@ -16,13 +16,13 @@ app.use(router)
 registerMicroApps([
   {
     name: 'vue-sub-app',
-    entry: '//localhost:8081', // 子应用的入口地址
+    entry: '//zhaoguangxu.github.io/vue-qiankun-sub-app/', // 子应用的入口地址
     container: '#subapp-container', // 子应用的挂载点
     activeRule: '/vue-sub-app', // 子应用的路由前缀
   },
   {
     name: 'vue-sub-app2',
-    entry: '//localhost:9000', // 第二个子应用的入口地址
+    entry: '//zhaoguangxu.github.io/vue-qiankun-sub-app2/', // 第二个子应用的入口地址
     container: '#subapp-container', // 子应用的挂载点
     activeRule: '/vue-sub-app2', // 子应用的路由前缀
   }

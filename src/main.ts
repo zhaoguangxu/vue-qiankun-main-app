@@ -20,7 +20,12 @@ registerMicroApps([
     container: '#subapp-container', // 子应用的挂载点
     activeRule: '/vue-sub-app', // 子应用的路由前缀
   },
-  // 可以注册更多微应用
+  {
+    name: 'vue-sub-app2',
+    entry: '//localhost:9000', // 第二个子应用的入口地址
+    container: '#subapp-container', // 子应用的挂载点
+    activeRule: '/vue-sub-app2', // 子应用的路由前缀
+  }
 ])
 
 // 启动 qiankun

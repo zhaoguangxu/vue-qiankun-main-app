@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'vue-sub-app',
       component: () => import('../views/SubAppView.vue'),
     },
+    {
+      path: '/vue-sub-app2/:page*',
+      name: 'vue-sub-app2',
+      component: () => import('../views/SubAppView.vue'),
+    }
   ],
 })
 

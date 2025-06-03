@@ -8,13 +8,14 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <span>1234567890</span>
-      <HelloWorld msg="You did it!" />
+      <span>主应用</span>
+      <HelloWorld msg="这是主应用" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/vue-sub-app">Vue子应用</RouterLink>
+        <RouterLink to="/vue-sub-app2">Vue子应用2</RouterLink>
       </nav>
     </div>
   </header>
